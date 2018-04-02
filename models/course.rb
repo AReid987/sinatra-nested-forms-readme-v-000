@@ -7,10 +7,10 @@ class Course
   def initialize(args)
     @name = args[:name]
     @topic = args[:topic]
-    COURSES << self 
+    COURSES << self
   end
 
-  def self.all 
+  def self.all
     COURSES
   end
 end
